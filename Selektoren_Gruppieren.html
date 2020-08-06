@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Selektoren Gruppieren</title>
+    <style>
+       h1,p{
+           color:blue;
+       }
+       div p{
+           color:red;
+       }
+       div + p{
+           color: green;
+       }
+       div > p{
+           color:gold;
+       }
+       #rot{
+           color:red;
+       }
+    </style>
+</head>
+<body>
+    <h1>Selektoren Gruppieren</h1>
+    <div>
+        <h2>Überschrift h2</h2>
+        Text direkt im Div
+        <p>Absatz mit etwas Text in Div</p>
+        <p>Absatz mit etwas anderem Text in Div</p>
+    </div>
+    <p>Absatz mit etwas Text</p>
+    <p>Absatz mit etwas anderem Text</p>
+    <p>Absatz mit etwas anderem Text</p>
+    <h2>Uberschrift,<span id="rot">die nicht</span> getroffen ist</h2>  
+    <div>
+        <span><p>Absatz3</p></span>
+        
+    </div>   
+</body>
+
+</html>
