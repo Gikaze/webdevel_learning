@@ -1,0 +1,246 @@
+<!Doctype htlml>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Aktuelle Nachrichten</title>
+    <style type="text/css">
+        body{
+            background-image: url(/bilder/ard.jpg);
+            margin: 0px;
+        }
+
+        .festebreite{
+            width: 1050px;
+            margin: auto;
+        }
+
+        #topleiste {
+            margin-top: -10px;
+            background-color:#043987;
+            width:100%;
+            float:left;
+        }
+        
+        #topleiste li {
+            list-style:none;
+            margin: auto;
+            float: left;
+            padding-top: -1px;
+            /*margin-left: auto;
+            margin-right: auto;
+           */
+        }
+
+        #topleiste a:link, a:visited {
+            color:white;
+            text-decoration:none;
+            font-size:16px;
+            padding:10px 5px 5px 5px;
+            
+        }
+        
+        #topleiste a:hover {
+            color:#001a4b;
+            background-color:white;
+            text-decoration:none;   
+        }
+
+        #topleiste ul{
+            margin-left: 30px;
+            
+        }
+        
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: none;
+            background-color: darkgray;
+        }
+
+        #ardbild{
+            content: url(https://www.tagesschau.de/resources/framework/img/tagesschau/banner/logo_base.png);
+            width: 250px;
+
+        }
+           
+        #suchfeld{
+            float: right;
+            position: relative;
+            top: -42px;
+            left: 0px;
+
+        }
+        #suchfeld input{
+            height: 20px;
+            background-image: url(bilder/search.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 20px;
+        }
+
+        #blauerbalken{
+            background-color:#0074CD;
+            height: 20px;
+            margin: 5px
+        }
+        #blauerbalken a:link{
+            padding: 5px;
+        }
+
+        #topbox{
+           margin-left: auto;
+           margin-right: auto;
+           height: 290px;
+           background-color: white; 
+           width: 1050px;
+        }
+
+        #bildlinksoben{
+            float: left;
+            margin: 5px;
+        }
+        p{
+            margin: 1px;
+        }
+        h3{
+            margin: 5px;
+        }
+        #mittlererblock{
+            width: 1050px;
+            height: 420px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            background-color: white;
+        }
+
+        .mittlererbloeke{
+            width: 330px;
+            margin: 10px;
+            float: left;
+            overflow: auto;
+
+        }
+        #grauerbalken{
+            background-color: #516384;
+            width: 300px;
+            padding: 2px;
+            margin-bottom: 1px;
+            
+        }
+        #gelberbalken{
+            background-color: #FFD338;
+            width: 300px;
+            padding: 2px;
+            margin-bottom: 1px;
+        }
+        #lilabalken{
+            background-color: #561151;
+            width: 300px;
+            padding: 2px;
+            margin-bottom: 1px;
+        }
+        .white{
+            color:white;
+        }
+        
+
+    </style>
+    
+</head>
+<body>
+    
+    <div class="festebreite">
+        <div id="topleiste">
+            <ul>
+                <li><a href="http://google.de">ARD Home</a></li>
+                <li><a href="http://google.de">Nachrichten</a></li>
+                <li><a href="http://google.de">Sport</a></li>
+                <li><a href="http://google.de">Börse</a></li>
+                <li><a href="http://google.de">Ratgeber</a></li>
+                <li><a href="http://google.de">Wissen</a></li>
+                <li><a href="http://google.de">Kultur</a></li>
+                <li><a href="http://google.de">Kinder</a></li>
+                <li><a href="http://google.de">Die ARD</a></li>
+                <li><span style="padding-left: 40px;"></span></li>
+                <li><a href="http://google.de"><b>Fernsehen</b></a></li>
+                <li><a href="http://google.de"><b>Radio</b></a></li>
+                <li><a href="http://google.de"><b>ARD Mediathek</b></a></li>
+                <li><a href="http://google.de"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/ARD_logo.svg/512px-ARD_logo.svg.png" width="55px"></a></li>
+            </ul>
+        </div>
+        <div id="ardbild"></div>
+        <div id="suchfeld">
+            <input type="text" placeholder="Suche in tagesschau.de">
+        </div>
+    </div>
+
+    <div id="topbox">
+        <div id="blauerbalken">
+            <a href=""><b class="white">NACHRICHTEN</b></a>
+        </div>
+        <div id="bildlinksoben">
+            <img src="https://www.tagesschau.de/multimedia/bilder/sendungsbild-618655~_v-videowebs.jpg" 
+            height= "250px"/>
+        </div>
+        <div>
+            <p>Studie des Robert Koch-Instituts</p> 
+            <h3>Hohe Corona-Dunkelziffer in Kupferzell</h3>
+            <p>Eine Studie des Robert Koch-Instituts entnimmt bei einem Freiwilligen in Kupferzell eine Probe. | Bildquelle: RONALD WITTEK/EPA-EFE/ShutterstoStudie des Robert Koch-InstitutsHohe Corona-Dunkelziffer in KupferzellEine Studie des Robert Koch-Instituts hat für Kupferzell in Baden-Württemberg 3,9 Mal mehr Infektionen nachgewiesen als bisher bekannt. Bei fast 30 Prozent der infizierten Probanden sind keine Antikörper nachweisbar.</p>
+            <hr>
+            <p><a href="https://www.tagesschau.de/inland/corona-infektionen-rki-103.html">RKI meldet 1122 Corona Neuinfektionen in Deutschland, 08.08.2020</a></p>
+            <hr>
+            <p><a href="https://www.tagesschau.de/inland/rki-briefing-103.html">Corona-Fälle in Deutschland:"Große Sorgen" beim RKI, 28.07.2020</a></p>
+            <hr>
+            <p><a href="https://www.tagesschau.de/inland/coronavirus-karte-deutschland-101.html">Coronavirus-Karte Deutschland</a></p>
+            <hr>
+        </div>
+    </div>
+    <div id="mittlererblock">
+        <div class="mittlererbloeke">
+            <div id="grauerbalken">
+                <b class="white">ARD MEDIATHEK</b>
+            </div>
+            <img width="300px" src="bilder/people.jpg"/>
+            <div id="textmitte">
+                <p>Coronavirus-Pandemie</p>
+                <h3>Österreich verhängt Reisewarnung für Kroatien</h3>
+                <p>Das österreichische Außenministerium reagiert mit einer Reisewarnung für Kroatien auf die steigenden Infektionszahlen. 
+                  RKI-Vizepräsident RKI, Schaade, fordert dazu auf, die Corona-Regeln einzuhalten. Alle Entwicklungen im Liveblog. 
+                </p>
+            </div>
+        </div>
+        <div class="mittlererbloeke">
+            <div id="gelberbalken">
+                <b class="white">BÖRSE</b>
+            </div>
+            <img width="300px" src="bilder/people.jpg"/>
+            <div id="textmitte">
+                <p>Coronavirus-Pandemie</p>
+                <h3>Österreich verhängt Reisewarnung für Kroatien</h3>
+                <p>Das österreichische Außenministerium reagiert mit einer Reisewarnung für Kroatien auf die steigenden Infektionszahlen. 
+                  RKI-Vizepräsident RKI, Schaade, fordert dazu auf, die Corona-Regeln einzuhalten. Alle Entwicklungen im Liveblog. 
+                </p>
+            </div>
+        </div>
+        <div class="mittlererbloeke">
+            <div id="lilabalken">
+                <b class="white">WISSEN</b>
+            </div>
+            <img width="300px" src="bilder/people.jpg"/>
+            <div id="textmitte">
+                <p>Coronavirus-Pandemie</p>
+                <h3>Österreich verhängt Reisewarnung für Kroatien</h3>
+                <p>Das österreichische Außenministerium reagiert mit einer Reisewarnung für Kroatien auf die steigenden Infektionszahlen. 
+                  RKI-Vizepräsident RKI, Schaade, fordert dazu auf, die Corona-Regeln einzuhalten. Alle Entwicklungen im Liveblog. 
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
